@@ -1,1 +1,20 @@
 # cordova
+
+
+----
+
+
+echo "# cordova" >> README.md
+git init
+
+git config --global user.email "tin6150@gmail.com" 
+git config --global user.name tin
+git config --global credential.helper 'cache --timeout=3600'
+git config --global github.user   tin6150
+
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/tin6150/cordova.git
+git push -u origin master
+
+
